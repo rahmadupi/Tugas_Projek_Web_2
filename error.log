@@ -1,0 +1,51 @@
+[05-Nov-2024 12:05:02 Europe/Berlin] User not authenticated
+[05-Nov-2024 12:05:13 Europe/Berlin] User not authenticated.
+[05-Nov-2024 12:05:28 Europe/Berlin] User not authenticated
+[05-Nov-2024 12:09:59 Europe/Berlin] User not authenticated
+[05-Nov-2024 12:10:03 Europe/Berlin] User not authenticated.
+[05-Nov-2024 12:11:08 Europe/Berlin] User not authenticated
+[05-Nov-2024 12:11:16 Europe/Berlin] User not authenticated.
+[05-Nov-2024 12:34:14 Europe/Berlin] PHP Warning:  Undefined array key "id" in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php on line 16
+[05-Nov-2024 12:34:14 Europe/Berlin] Section ID cannot be empty.
+[05-Nov-2024 15:39:13 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'section_id' in 'field list' in C:\xampp\htdocs\Tugas_Projek_Web_2\add_activity.php:21
+Stack trace:
+#0 C:\xampp\htdocs\Tugas_Projek_Web_2\add_activity.php(21): mysqli->prepare('INSERT INTO act...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tugas_Projek_Web_2\add_activity.php on line 21
+[05-Nov-2024 15:41:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`todo_app`.`activities`, CONSTRAINT `activities_ibfk_2` FOREIGN KEY (`label_id`) REFERENCES `labels` (`id`)) in C:\xampp\htdocs\Tugas_Projek_Web_2\add_activity.php:28
+Stack trace:
+#0 C:\xampp\htdocs\Tugas_Projek_Web_2\add_activity.php(28): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tugas_Projek_Web_2\add_activity.php on line 28
+[05-Nov-2024 16:46:06 Europe/Berlin] Activity ID cannot be empty.
+[05-Nov-2024 16:50:29 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:31 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:31 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:32 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:33 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:33 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:33 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:33 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:33 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 16:50:34 Europe/Berlin] Activity ID is missing.
+[05-Nov-2024 17:03:21 Europe/Berlin] Invalid request method: POST
+[05-Nov-2024 17:03:23 Europe/Berlin] Invalid request method: POST
+[05-Nov-2024 17:03:23 Europe/Berlin] Invalid request method: POST
+[05-Nov-2024 17:03:23 Europe/Berlin] Invalid request method: POST
+[05-Nov-2024 17:03:23 Europe/Berlin] Invalid request method: POST
+[05-Nov-2024 17:03:24 Europe/Berlin] Invalid request method: POST
+[05-Nov-2024 17:04:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`todo_app`.`activities`, CONSTRAINT `activities_ibfk_2` FOREIGN KEY (`label_id`) REFERENCES `labels` (`id`)) in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php on line 25
+[05-Nov-2024 17:04:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`todo_app`.`activities`, CONSTRAINT `activities_ibfk_2` FOREIGN KEY (`label_id`) REFERENCES `labels` (`id`)) in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php on line 25
+[05-Nov-2024 17:04:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`todo_app`.`activities`, CONSTRAINT `activities_ibfk_2` FOREIGN KEY (`label_id`) REFERENCES `labels` (`id`)) in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php:25
+Stack trace:
+#0 C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php(25): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\Tugas_Projek_Web_2\delete_section.php on line 25
